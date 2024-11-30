@@ -10,11 +10,120 @@
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
-    .slider p{
-        margin: 37px 0;
+    /* common */
+    .mt{
+        margin-top: 50px;
+    }
+    .c-h2 {
+        font-size: 28px;
+    }
+    /* banner */
+    .banner {
+        padding-top: 158px;
+        padding-bottom: 200px;
+    }
+    .slider h1 {
+        font-size: 44px;
+    }
+    .slider p {
+        margin: 17px 0;
         padding: 0 100px;
+    }
+    .book-btn {
+        padding: 8px 20px;
+    }
+    .watch-btn {
+        margin-left: 10px;
+        padding: 8px 10px;
+    }
+    /* about */
+    .about h1{
+        text-align: center;
+    }
+    .about-title p {
+        font-size: 16px;
+        text-align: center;
+    }
+    .about-item {
+        margin-top: 20px;
+        padding: 0px 20px 20px 20px;
+    }
+    /* item */
+    .item-d {
+        padding: 6px;
+        height: 60px;
+        top: -60px;
+    }
+    .item-d h2 {
+        font-size: 14px;
+        font-weight: 700;
+    }
+    .bp{
+        font-size: 12px;
+    }   
+    .sp{
+        font-size: 12px;
+    }
+    .buy-btn {
+        padding: 5px 5px;
+        top: -40px;
+        left: 80px;
+    }
+    /* review */
+    .review {
+        margin-top: 35px;
+        height: 270px;
+        padding: 10px;
+    }
+    .r-title {
+        padding: 20px 0px;
+    }
+    .r-title h2 {
+        padding: 10px 10px;
         font-size: 18px;
-        line-height: 25.2px;
+        font-weight: 600;
+        color: var(--green);
+    }
+    /* mail */
+    .e-mail h1 {
+        padding: 38px 60px 10px;
+        color: #fff;
+        font-size: 22px;
+        text-align: center;
+    }
+    .form {
+        padding: 10px 20px 30px 110px;
+    }
+    .c-form {
+        padding: 6px 0.75rem;
+    }
+    .submit-btn {
+        position: relative;
+        padding: 7px 20px;
+    }
+    /* contact */
+    .contact h2 {
+        margin-top: 25px;
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 40px;
+    }
+    .c-link {
+        margin-top: 25px;
+    }
+    .fb {
+        padding: 0 50px;
+    }
+    .list-inline{
+        margin: 0;
+    }
+    .list-inline-item:not(:last-child) {
+        margin-right: 30px;
+    }
+    footer p {
+        font-family: var(--rale);
+        font-weight: 500;
+        line-height: 22px;
     }
 }
 
@@ -46,7 +155,7 @@
     /* items */
     .buy-btn {
         padding: 8px 14px;
-        left: 100px;
+        left: 120px;
     }
     /* .feature */
     .up-img {
@@ -79,6 +188,7 @@
     .form {
         padding: 100px 0;
     }
+    /* blog */
     .blog-details h2 {
         font-size: 18px;
         font-weight: 700;
