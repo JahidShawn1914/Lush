@@ -49,25 +49,45 @@
         padding: 0px 20px 20px 20px;
     }
     /* item */
-    .item-d {
-        padding: 6px;
-        height: 60px;
-        top: -60px;
-    }
-    .item-d h2 {
-        font-size: 14px;
+    .item-d h2 ,.item-d1 h2{
+        font-size: 28px;
         font-weight: 700;
     }
     .bp{
-        font-size: 12px;
+        font-size: 16px;
     }   
     .sp{
-        font-size: 12px;
+        font-size: 16px;
     }
-    .buy-btn {
-        padding: 5px 5px;
-        top: -40px;
-        left: 80px;
+    .item-d{
+        top: 326%;
+        width: 336px;
+        padding: 20px;
+    }
+    .item-d2{
+        top: 416%;
+    }
+    .item-d1{
+        top: 510%;
+        width: 336px;
+        padding: 20px;
+    }
+    .item-d3{
+        top: 605%;
+    }
+    .buy-btn{
+        margin-left: 120px;
+        padding: 8px 24px;
+    }
+    /* feature */
+    .up-img {
+        top: 660%;
+        left: 35%;
+    }
+    /* gallery */
+    .c-row{
+        --bs-gutter-x: .5rem;
+        --bs-gutter-y: .5rem;
     }
     /* review */
     .review {
@@ -92,7 +112,7 @@
         text-align: center;
     }
     .form {
-        padding: 10px 20px 30px 110px;
+        padding: 10px 20px 40px 110px;
     }
     .c-form {
         padding: 6px 0.75rem;
@@ -152,22 +172,22 @@
         margin: 27px 0;
         padding: 0 190px;
     }
-    /* items */
-    .buy-btn {
-        padding: 8px 14px;
-        left: 120px;
-    }
     /* .feature */
-    .up-img {
-        top: -510px;
-        left: 170px;
-    }
     .feature-item {
-        padding: 0px 10px 0px 20px;
+        padding: 0px 10px 10px 20px;
+    }
+    .up-img{
+        top: 360%;
+        left: 15%;
     }
     .cch2 {
         margin-top: 0px;
         margin-bottom: 10px;
+    }
+    /* gallery */
+    .c-row{
+        --bs-gutter-x: .5rem;
+        --bs-gutter-y: .5rem;
     }
     /* review */
     .review {
@@ -212,8 +232,22 @@
 /* Extra extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) and (max-width: 1399.98px) {
 
+
 }
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1400px) {
-
+    .item-d{
+        position: absolute;
+        top: 235%;
+        width: 305px;
+        padding: 10px;
+        background-color: #ffffff;
+    }
+    .item-d1{
+        position: absolute;
+        top: 285%;
+        width: 305px;
+        padding: 10px;
+        background-color: #fcfcfc;
+    }
 }
