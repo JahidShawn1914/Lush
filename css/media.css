@@ -1,13 +1,297 @@
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
+    /* common */
+    .mt{
+        margin-top: 25px;
+    }
+    .c-h2 {
+        text-align: center;
+        font-size: 28px;
+        line-height: 35px;
+    }
+    /* banner */
+    .banner {
+        padding-top: 98px;
+        padding-bottom: 30px;
+    }
+    .slider h1 {
+        margin-bottom: 0;
+        font-size: 24px;
+        line-height: 36.8px;
+    }
+    .slider p {
+        margin: 10px 0 15px;
+        padding: 0 20px;
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .book-btn {
+        padding: 5px 12px;
+        font-weight: 500;
+    }
+    .watch-btn {
+        margin-left: 10px;
+        padding: 4px 9px;
+        font-size: 15px;
+        font-weight: 500;
+    }
+    .indicator {
+        margin-top: 10px;
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .indi-btn {
+        margin-left: 10px;
+    }
+    /* about */
+    .about-icon{
+        display: flex;
+        justify-content: center;
+    }
+    .about h1{
+        text-align: center;
+    }
+    .about-title p {
+        margin-top: 5px;
+        font-size: 14px;
+        font-weight: 400;
+        text-align: center;
+    }
+    .about-item {
+        margin-top: 20px;
+        padding: 0px 20px 20px 20px;
+        height: 320px;
+        text-align: center;
+    }
+    /* item */
+    .item-d {
+        position: relative;
+        padding: 20px;
+        top: 0px;
+        width: 100%;
+    }
+    .item-d h2{
+        font-size: 24px;
+        font-weight: 700;
+    }
+    .buy-btn{
+        padding: 8px 24px;
+        font-size: 18px;
+    }
+    /* feature */
+    .up-img {
+        top: 0px;
+        left: 10px;
+    }
+    .feature-item {
+        text-align: center;
+        padding: 50px 30px 20px;
+    }
+    /* review */
+    .review {
+        height: 260px;
+        padding: 20px;
+    }
+    .r-title {
+        padding: 20px 10px;
+    }
+    .r-title h2 {
+        padding: 10px;
+    }
+    /* mail */
+    .e-mail h1 {
+        margin-bottom: 0;
+        padding: 18px 0px 0px;
+        font-size: 18px;
+        line-height: 28px;
+        text-align: center;
+    }
+    .form {
+        padding: 10px 0px 15px 40px;
+    }
+    .c-form {
+        padding: 1px 8px;
+        margin-right: 0;
+    }
+    .submit-btn {
+        padding: 3px 15px;
+        font-size: 14px;
+        font-weight: 600;
+    }
+    /* blog */
+    .blog-item {
+        padding: 0 10px 0;
+        margin-top: 10px;
+    }
+    .blog-details h2 {
+        margin-top: 10px;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 24px;
+    }
+    .blog-details p {
+        margin-bottom: 5px !important;
+        font-family: var(--rale);
+        font-size: 14px;
+        font-weight: 400;
+    }
+    .link a {
+        font-weight: 700;
+    }
+    /* contact */
+    .contact h2 {
+        margin-top: 15px;
+        font-size: 24px;
+    }
+    .c-link {
+        margin-top: 10px;
+    }
+    .fb {
+        padding: 0 10px;
+    }
+    .nav2 {
+        text-align: center;
+        margin-top: 15px;
+        margin-bottom: 20px;
+    }
+    .list-inline{
+        margin: 0;
+    }
+    .list-inline-item:not(:last-child) {
+        margin-right: 5px;
+    }
+    footer p {
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 20px;
+    }
 
 }
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
-
+    /* common */
+    .mt{
+        margin-top: 30px;
+    }
+    .c-h2 {
+        text-align: center;
+        font-size: 32px;
+    }
+    /* banner */
+    .banner {
+        padding-top: 98px;
+        padding-bottom: 110px;
+    }
+    .slider h1 {
+        margin-bottom: 0;
+        font-size: 34px;
+    }
+    .slider p {
+        margin: 0 0 25px;
+        padding: 0 50px;
+    }
+    .book-btn {
+        padding: 8px 20px;
+    }
+    .watch-btn {
+        margin-left: 10px;
+        padding: 8px 10px;
+    }
+    .indicator {
+        margin-top: 30px;
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .indi-btn {
+        margin-left: 15px;
+    }
+    /* about */
+    .about-icon{
+        display: flex;
+        justify-content: center;
+    }
+    .about h1{
+        text-align: center;
+    }
+    .about-title p {
+        font-size: 16px;
+        text-align: center;
+    }
+    .about-item {
+        margin-top: 20px;
+        padding: 0px 90px 20px 90px;
+        height: 320px;
+        text-align: center;
+    }
+    /* item */
+    .item-d {
+        padding: 20px;
+        top: 566px;
+        width: 517px;
+    }
+    .item-d h2{
+        font-size: 24px;
+        font-weight: 700;
+    }
+    .buy-btn{
+        padding: 8px 24px;
+        font-size: 18px;
+    }
+    /* feature */
+    .up-img {
+        top: 50px;
+        left: 170px;
+    }
+    .feature-item {
+        text-align: center;
+        padding: 50px 80px 80px;
+    }
+    /* mail */
+    .e-mail h1 {
+        padding: 18px 40px 0px;
+        color: #fff;
+        font-size: 22px;
+        text-align: center;
+    }
+    .form {
+        padding: 10px 20px 40px 110px;
+    }
+    .c-form {
+        padding: 6px 0.75rem;
+    }
+    .submit-btn {
+        position: relative;
+        padding: 7px 15px;
+    }
+    /* contact */
+    .contact h2 {
+        margin-top: 15px;
+        font-size: 24px;
+    }
+    .c-link {
+        margin-top: 10px;
+    }
+    .fb {
+        padding: 0 35px;
+    }
+    .list-inline{
+        margin: 0;
+    }
+    .list-inline-item:not(:last-child) {
+        margin-right: 20px;
+    }
+    footer p {
+        font-family: var(--rale);
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+    }
 }
-
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
     /* common */
@@ -19,8 +303,8 @@
     }
     /* banner */
     .banner {
-        padding-top: 158px;
-        padding-bottom: 200px;
+        padding-top: 118px;
+        padding-bottom: 170px;
     }
     .slider h1 {
         font-size: 44px;
@@ -49,40 +333,23 @@
         padding: 0px 20px 20px 20px;
     }
     /* item */
-    .item-d h2 ,.item-d1 h2{
-        font-size: 28px;
+    .item-d {
+        padding: 20px;
+        top: 350px;
+        width: 337px;
+    }
+    .item-d h2{
+        font-size: 24px;
         font-weight: 700;
     }
-    .bp{
-        font-size: 16px;
-    }   
-    .sp{
-        font-size: 16px;
-    }
-    .item-d{
-        top: 326%;
-        width: 336px;
-        padding: 20px;
-    }
-    .item-d2{
-        top: 416%;
-    }
-    .item-d1{
-        top: 510%;
-        width: 336px;
-        padding: 20px;
-    }
-    .item-d3{
-        top: 605%;
-    }
     .buy-btn{
-        margin-left: 120px;
-        padding: 8px 24px;
+        padding: 8px 22px;
+        font-size: 16px;
     }
     /* feature */
     .up-img {
-        top: 660%;
-        left: 35%;
+        top: 110px;
+        left: 230px;
     }
     /* gallery */
     .c-row{
@@ -112,7 +379,7 @@
         text-align: center;
     }
     .form {
-        padding: 10px 20px 40px 110px;
+        padding: 10px 20px 40px 170px;
     }
     .c-form {
         padding: 6px 0.75rem;
@@ -172,13 +439,26 @@
         margin: 27px 0;
         padding: 0 190px;
     }
+    /* item */
+    .item-d {
+        top: 190px;
+        width: 217px;
+    }
+    .item-d h2{
+        font-size: 18px;
+        font-weight: 700;
+    }
+    .buy-btn{
+        padding: 8px 18px;
+        font-size: 12px;
+    }
     /* .feature */
     .feature-item {
         padding: 0px 10px 10px 20px;
     }
-    .up-img{
-        top: 360%;
-        left: 15%;
+    .up-img {
+        top: 40px;
+        left: 160px;
     }
     .cch2 {
         margin-top: 0px;
@@ -236,7 +516,7 @@
 }
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1400px) {
-    .item-d{
+    /* .item-d{
         position: absolute;
         top: 235%;
         width: 305px;
@@ -249,5 +529,5 @@
         width: 305px;
         padding: 10px;
         background-color: #fcfcfc;
-    }
+    } */
 }

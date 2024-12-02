@@ -160,6 +160,7 @@ body{
     border: 1px solid transparent;
     border-radius: 10px;
     box-shadow: 0px 20px 40px rgb(0 0 0 / 5%);
+    transition: .33s ease-in-out;
 }
 .about-item i{
     font-size: 100px;
@@ -182,41 +183,36 @@ body{
 }
 /* item */
 .item{
+    position: relative;
     margin-top: 35px;
 }
 .item-d{
     position: absolute;
-    top: 252%;
-    width: 217px;
+    top: 310px;
+    width: 307px;
     padding: 10px;
     background-color: #ffffff;
 }
-.item-d1{
-    position: absolute;
-    top: 298%;
-    width: 217px;
-    padding: 10px;
-    background-color: #fcfcfc;
-}
-.item-d h2, .item-d1 h2{
+.item-d h2{
     margin-bottom: 15px;
-    font-size: 16px;
+    font-size: 24px;
     font-weight: 900;
     color: var(--green);
     line-height: 22.4px;
 }
 .bp{
+    font-size: 18px;
     text-decoration: line-through;
 }
 .sp{
+    font-size: 18px;
     padding-left: 10px;
     font-weight: 700;
     color: var(--green);
 }
 .buy-btn{
-    margin-left: 25px;
     padding: 8px 24px;
-    font-size: 12px;
+    font-size: 16px;
     font-weight: 600;
     color: var(--green);
     background-color: #fff;
@@ -229,13 +225,13 @@ body{
     background-color: var(--green);
 }
 /* feature */
-.feature{
-    margin-top: 250px;
+.feature-img{
+    position: relative;
 }
-.up-img{
+.up-img {
     position: absolute;
-    top: 335%;
-    left: 20%;
+    top: 100px;
+    left: 240px;
 }
 .feature-item{
     padding: 50px;
