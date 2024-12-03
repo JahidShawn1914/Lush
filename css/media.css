@@ -143,13 +143,14 @@
     /* contact */
     .contact h2 {
         margin-top: 15px;
-        font-size: 24px;
+        font-size: 22px;
     }
     .c-link {
-        margin-top: 10px;
+        margin-top: 0;
+        font-size: 28px;
     }
     .fb {
-        padding: 0 10px;
+        padding: 0 30px;
     }
     .nav2 {
         text-align: center;
@@ -167,7 +168,6 @@
         font-weight: 400;
         line-height: 20px;
     }
-
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -275,9 +275,14 @@
     }
     .c-link {
         margin-top: 10px;
+        font-size: 46px;
     }
     .fb {
         padding: 0 35px;
+    }
+    .nav2{
+        margin-top: 15px;
+        margin-bottom: 30px;
     }
     .list-inline{
         margin: 0;
