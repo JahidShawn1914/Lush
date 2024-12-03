@@ -511,23 +511,16 @@
 
 /* Extra extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) and (max-width: 1399.98px) {
-
-
+    /* item */
+    .item-d {
+        top: 250px;
+        width: 100%;
+    }
+    .feature-item {
+        padding: 18px;
+    }
 }
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1400px) {
-    /* .item-d{
-        position: absolute;
-        top: 235%;
-        width: 305px;
-        padding: 10px;
-        background-color: #ffffff;
-    }
-    .item-d1{
-        position: absolute;
-        top: 285%;
-        width: 305px;
-        padding: 10px;
-        background-color: #fcfcfc;
-    } */
+
 }
