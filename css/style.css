@@ -171,6 +171,7 @@ body{
     font-weight: 700;
     line-height: 28px;
 }
+
 .about-item:hover{
     background-color: var(--green);
 }

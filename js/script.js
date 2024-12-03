@@ -1,9 +1,18 @@
-// jq
-const hoverImage = document.getElementById('hoverImage1');
-const newImageSrc = "../images/Indoor_Plant-wt.png";
-hoverImage1.addEventListener('mouseover', () => {
-    hoverImage.src = newImageSrc;
+// js
+const aboutItems = document.querySelectorAll('.about-item');
+
+aboutItems.forEach(item => {
+    const icon = item.querySelector('.icon');
+
+    const originalImage = item.getAttribute('data-original');
+    const hoverImage = item.getAttribute('data-hover');
+
+    item.addEventListener('mouseenter', () => {
+        icon.src = hoverImage;
+    });
+
+    item.addEventListener('mouseleave', () => {
+        icon.src = originalImage;
+    });
 });
-hoverImage1.addEventListener('mouseout', () => {
-    hoverImage.src = "../images/Indoor_Plant.png";
-});
+
