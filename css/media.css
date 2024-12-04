@@ -157,6 +157,9 @@
         margin-top: 15px;
         margin-bottom: 20px;
     }
+    .nav2 ul li a{
+        font-size: 16px;
+    }
     .list-inline{
         margin: 0;
     }
@@ -275,7 +278,7 @@
     }
     .c-link {
         margin-top: 10px;
-        font-size: 46px;
+        font-size: 38px;
     }
     .fb {
         padding: 0 35px;
@@ -283,6 +286,9 @@
     .nav2{
         margin-top: 15px;
         margin-bottom: 30px;
+    }
+    .nav2 ul li a{
+        font-size: 18px;
     }
     .list-inline{
         margin: 0;
@@ -406,6 +412,13 @@
     .fb {
         padding: 0 50px;
     }
+    .nav2 {
+        margin-top: 25px;
+        margin-bottom: 45px;
+    }
+    .nav2 ul li a{
+        font-size: 22px;
+    }
     .list-inline{
         margin: 0;
     }
@@ -459,7 +472,7 @@
     }
     /* .feature */
     .feature-item {
-        padding: 0px 10px 10px 20px;
+        padding: 0px 10px 0px 20px;
     }
     .up-img {
         top: 40px;
@@ -467,7 +480,7 @@
     }
     .cch2 {
         margin-top: 0px;
-        margin-bottom: 10px;
+        margin-bottom: 3px;
     }
     /* gallery */
     .c-row{
@@ -509,6 +522,13 @@
     .fb {
         padding: 0 60px;
     }
+    .nav2 {
+        margin-top: 25px;
+        margin-bottom: 52px;
+    }
+    .nav2 ul li a{
+        font-size: 22px;
+    }
     .list-inline-item:not(:last-child) {
         margin-right: 40px;
     }
@@ -522,10 +542,12 @@
         width: 100%;
     }
     .feature-item {
-        padding: 18px;
+        padding: 10px;
     }
 }
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1400px) {
-
+    .feature-item {
+        padding: 34px;
+    }
 }
