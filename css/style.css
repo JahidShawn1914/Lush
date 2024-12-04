@@ -355,6 +355,10 @@ body{
 }
 .c-link a i{
     color: #fff !important;
+    transition: .33s ease-in-out;
+}
+.c-link a i:hover{
+    transform: scale(1.3);
 }
 .fb{
     padding: 0 70px;
