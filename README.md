@@ -19,7 +19,7 @@ A responsive and interactive web application built with HTML, CSS, JavaScript, a
 - HTML  
 - CSS  
 - JavaScript  
-- [Gallery Plugin]([https://plugin-link.co](https://www.jqueryscript.net/gallery/Tiny-Responsive-Lightbox-Gallery-Plugin-For-jQuery-Viewbox.html)m)  
+- [Gallery Plugin](https://www.jqueryscript.net/gallery/Tiny-Responsive-Lightbox-Gallery-Plugin-For-jQuery-Viewbox.html)  
 
 ## Features  
 
