@@ -5,13 +5,9 @@ A responsive and interactive web application built with HTML, CSS, JavaScript, a
 ## Table of Contents  
 - [About the Project](#about-the-project)  
 - [Built With](#built-with)  
-- [Features](#features)  
-- [Installation](#installation)  
-- [Usage](#usage)  
-- [Contributing](#contributing)  
-- [License](#license)  
+- [Features](#features)   
 - [Contact](#contact)  
-
+- [preview](#preview)
 ---
 
 ## About the Project  
@@ -23,7 +19,7 @@ A responsive and interactive web application built with HTML, CSS, JavaScript, a
 - HTML  
 - CSS  
 - JavaScript  
-- [Gallery Plugin](https://plugin-link.com)  
+- [Gallery Plugin]([https://plugin-link.co](https://www.jqueryscript.net/gallery/Tiny-Responsive-Lightbox-Gallery-Plugin-For-jQuery-Viewbox.html)m)  
 
 ## Features  
 
@@ -31,4 +27,12 @@ A responsive and interactive web application built with HTML, CSS, JavaScript, a
 - The Gallery plugin powers the interactive gallery section.  
 - Customizable icon colour functionality in the About section using JavaScript.  
 - Smooth, dynamic scroll behaviour for the navbar using JavaScript.  
-- Cross-browser compatibility. 
+- Cross-browser compatibility.
+
+   
+## Built With  
+
+Shawn - [jahidshawn1914@gmail.com] 
+
+## Preview
+# https://jahidshawn1914.github.io/Lush/
