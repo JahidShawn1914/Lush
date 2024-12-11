@@ -548,12 +548,12 @@
         width: 100%;
     }
     .feature-item {
-        padding: 10px;
+        padding: 40px;
     }
 }
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1400px) {
     .feature-item {
-        padding: 34px;
+        padding: 40px;
     }
 }
